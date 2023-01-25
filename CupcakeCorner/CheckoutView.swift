@@ -40,7 +40,7 @@ struct CheckoutView: View {
                 .padding()
             }
         }
-        .navigationTitle("Check out")
+        .navigationTitle("Checkout")
         .navigationBarTitleDisplayMode(.inline)
         .alert("Thank you!", isPresented: $showingConfirmation) {
             Button("OK") { }
@@ -63,7 +63,6 @@ struct CheckoutView: View {
         
         let url = URL(string: "https://reqres.in/api/cupcakes")!
         var request = URLRequest(url: url)
-        
         request.setValue("application/json", forHTTPHeaderField: "Content-Type")
         request.httpMethod = "POST"
         
