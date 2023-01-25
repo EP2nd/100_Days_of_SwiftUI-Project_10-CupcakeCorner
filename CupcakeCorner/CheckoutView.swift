@@ -14,6 +14,9 @@ struct CheckoutView: View {
     @State private var confirmationMessage = ""
     @State private var showingConfirmation = false
     
+    /// Challenge 2:
+    @State private var showingErrorAlert = false
+    
     var body: some View {
         ScrollView {
             VStack {
@@ -44,6 +47,12 @@ struct CheckoutView: View {
         } message: {
             Text(confirmationMessage)
         }
+        /// Challenge 2:
+        .alert("Error", isPresented: $showingErrorAlert) {
+            Button("OK") { }
+        } message: {
+            Text("Your order could not be placed. Please make sure your Internet connection is stable and try again.")
+        }
     }
     
     func placeOrder() async {
@@ -65,7 +74,8 @@ struct CheckoutView: View {
             confirmationMessage = "Your order for \(decodedOrder.quantity)x \(Order.types[decodedOrder.type].lowercased()) cupcakes is on its way!"
             showingConfirmation = true
         } catch {
-            print("Checkout failed")
+            /// Challenge 2:
+            showingErrorAlert.toggle()
         }
     }
 }
