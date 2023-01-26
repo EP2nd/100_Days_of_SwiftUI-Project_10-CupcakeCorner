@@ -10,8 +10,7 @@
 		B8C73069297FC84400E8BD30 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C73068297FC84400E8BD30 /* Order.swift */; };
 		B8C7306D297FD42200E8BD30 /* AddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C7306C297FD42200E8BD30 /* AddressView.swift */; };
 		B8C7306F297FD55A00E8BD30 /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C7306E297FD55A00E8BD30 /* CheckoutView.swift */; };
-		B8E7CEF229818EC700EC2360 /* OrderDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E7CEF129818EC700EC2360 /* OrderDetails.swift */; };
-		B8E7CEF82981A07A00EC2360 /* String-CheckIfTrulyEmpty.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E7CEF72981A07A00EC2360 /* String-CheckIfTrulyEmpty.swift */; };
+		B8E7CEF62981A01F00EC2360 /* String-CheckIfTrulyEmpty.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E7CEF52981A01F00EC2360 /* String-CheckIfTrulyEmpty.swift */; };
 		B8EE17D0297EFD8700F5AB00 /* CupcakeCornerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EE17CF297EFD8700F5AB00 /* CupcakeCornerApp.swift */; };
 		B8EE17D2297EFD8700F5AB00 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EE17D1297EFD8700F5AB00 /* ContentView.swift */; };
 		B8EE17D4297EFD8A00F5AB00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8EE17D3297EFD8A00F5AB00 /* Assets.xcassets */; };
@@ -22,8 +21,7 @@
 		B8C73068297FC84400E8BD30 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		B8C7306C297FD42200E8BD30 /* AddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressView.swift; sourceTree = "<group>"; };
 		B8C7306E297FD55A00E8BD30 /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
-		B8E7CEF129818EC700EC2360 /* OrderDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDetails.swift; sourceTree = "<group>"; };
-		B8E7CEF72981A07A00EC2360 /* String-CheckIfTrulyEmpty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String-CheckIfTrulyEmpty.swift"; sourceTree = "<group>"; };
+		B8E7CEF52981A01F00EC2360 /* String-CheckIfTrulyEmpty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String-CheckIfTrulyEmpty.swift"; sourceTree = "<group>"; };
 		B8EE17CC297EFD8700F5AB00 /* CupcakeCorner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CupcakeCorner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8EE17CF297EFD8700F5AB00 /* CupcakeCornerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CupcakeCornerApp.swift; sourceTree = "<group>"; };
 		B8EE17D1297EFD8700F5AB00 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -63,16 +61,11 @@
 			isa = PBXGroup;
 			children = (
 				B8EE17CF297EFD8700F5AB00 /* CupcakeCornerApp.swift */,
-				B8E7CEF72981A07A00EC2360 /* String-CheckIfTrulyEmpty.swift */,
+				B8E7CEF52981A01F00EC2360 /* String-CheckIfTrulyEmpty.swift */,
 				B8EE17D1297EFD8700F5AB00 /* ContentView.swift */,
-				B8C73068297FC84400E8BD30 /* Order.swift */,
 				B8C7306C297FD42200E8BD30 /* AddressView.swift */,
 				B8C7306E297FD55A00E8BD30 /* CheckoutView.swift */,
-<<<<<<< Updated upstream
-=======
-				B8E7CEF129818EC700EC2360 /* OrderDetails.swift */,
 				B8C73068297FC84400E8BD30 /* Order.swift */,
->>>>>>> Stashed changes
 				B8EE17D3297EFD8A00F5AB00 /* Assets.xcassets */,
 				B8EE17D5297EFD8A00F5AB00 /* Preview Content */,
 				B8EE17DD297F39C900F5AB00 /* Info.plist */,
@@ -159,10 +152,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B8C73069297FC84400E8BD30 /* Order.swift in Sources */,
-				B8E7CEF229818EC700EC2360 /* OrderDetails.swift in Sources */,
-				B8E7CEF82981A07A00EC2360 /* String-CheckIfTrulyEmpty.swift in Sources */,
 				B8C7306D297FD42200E8BD30 /* AddressView.swift in Sources */,
 				B8C7306F297FD55A00E8BD30 /* CheckoutView.swift in Sources */,
+				B8E7CEF62981A01F00EC2360 /* String-CheckIfTrulyEmpty.swift in Sources */,
 				B8EE17D2297EFD8700F5AB00 /* ContentView.swift in Sources */,
 				B8EE17D0297EFD8700F5AB00 /* CupcakeCornerApp.swift in Sources */,
 			);
